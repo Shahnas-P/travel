@@ -1,6 +1,9 @@
 html{
     box-sizing: border-box;
 }
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Leckerli+One&family=Poppins:ital,wght@0,100;1,600&family=Rubik+Glitch&display=swap');
+
+
 *,*::after,*::before{
     padding: 0;
     margin: 0;
@@ -20,5 +23,15 @@ header{
 #guide{
     font-size: x-large;
     color: black;
+}
+.Bold{
+    font-weight: bolder;
+    font-size: 4.5rem;
+    color: white;
+}
+.italic{
+    font-family: 'Leckerli One', cursive;
+    font-size: 3.5rem;
+    color: white;
 }
 
