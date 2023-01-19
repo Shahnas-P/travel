@@ -15,6 +15,7 @@ header{
     height: 100vh;
     background-image:url(travel.webp) ; 
     opacity: 0.9;
+    background-attachment: fixed;
 
 }
 #travel{
@@ -34,4 +35,79 @@ header{
     font-size: 3.5rem;
     color: white;
 }
-
+#btn_color{
+    background-color: navy;
+    color: white;
+}
+.background{
+    width: 100%;
+    height:170vh ;
+    background-color: aliceblue;
+    margin-top: 5rem;
+}
+#font_border{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.box{
+    border-color: grey;
+}
+.line{
+    color: lightgray;
+}
+.box1{
+    width: 16rem;
+    height: 16rem;
+    background-color: antiquewhite;
+}
+.learnMore{
+    text-decoration: inherit;
+    color: blueviolet;
+}
+.learnMore:hover{
+    text-decoration-line: underline;
+    color: blueviolet;
+    
+}
+.our_customer_love{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.about_us_social{
+    width: 100%;
+    height: 60vh;
+    background-color: #011f66;
+}
+.link{
+    color: white;
+    list-style: inherit;
+}
+#bulatin{
+    list-style: none;
+   
+}
+#yellow{
+    color: #f2bb07;
+    
+}
+#socialyellow{
+    color: #f2bb07;
+    cursor: pointer;
+}
+.exploreWorld{
+    cursor: pointer;
+   
+}
+.exploreWorld a{
+    text-decoration: none;
+}
+.class{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#class{
+    color: #f2bb07;
+    text-decoration: none;
+}
